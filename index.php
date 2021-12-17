@@ -14,7 +14,7 @@
 
 <body>
     <h1 align="center">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
-    <formalign="bootstrap" action="#" method="post" name="add" class="form-horizontal" id="add">
+    <form align="bootstrap" action="#" method="post" name="add" class="form-horizontal" id="add">
         </p>
         <div class="form-group">
             <div class="col-sm-2 control-label">
