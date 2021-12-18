@@ -14,7 +14,7 @@
 
 <body>
     <h1 align="center">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
-    <form align="body" action="#" method="post" name="add" class="form-horizontal" id="add">
+    <form align="body" action="#" method="post" name="add" class="form-horizontal container" id="add">
         </p>
         <div class="form-group">
             <div class="col-sm-2 control-label">
@@ -39,7 +39,7 @@
                     <div class="input-group-prepend">
                         <label class="input-group-text" for="inputGroupSelect02">เพศ</label>
                     </div>
-                    <select class="custom-select" id="inputGroupSelect02" required>
+                    <select class="form-select" id="inputGroupSelect02" required>
                         <option selected>-เลือกข้อมูล-</option>
                         <option value="1">ชาย</option>
                         <option value="2">หญิง</option>
