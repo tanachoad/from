@@ -40,7 +40,7 @@
         </select>
     </div>
             <div class="form-group mb-3">
-                <label for="fname" class="form-label">ชื่อจริง</label>
+                <label for="fname" class="form-label col-sm-2">ชื่อ</label>
                 <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group">
