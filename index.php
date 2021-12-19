@@ -39,7 +39,7 @@
             <option value="3">ไม่ระบุ</option>
         </select>
     </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <div class="form-label">
                     ชื่อ :
                 </div>
