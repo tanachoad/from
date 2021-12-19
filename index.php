@@ -39,134 +39,90 @@
             <option value="3">ไม่ระบุ</option>
         </select>
     </div>
-            <div class="form-group mb-3">
-                <label for="fname" class="form-label col-sm-2"> ชื่อ : </label>
-                <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
-            </div>
-            <div class="form-group mb-3">
-                <label for="fname" class="form-label col-sm-2"> นามสกุล : </label>
-                <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
-            </div>
-            <div class="form-group mb-3">
-                <label for="data" class="form-label col-sm-2"> วันเดือนปีเกิด : </label>
-                <input type="date" name="" required class="form-date form-control">
-            </div>
-                <div class="form-group mb-3">
-                    <label for="numderf" class="form-label col-sm-2"> เบอร์โทร : </label>
-                    <input type="tel" name="" required class="form-control" placeholder="เช่น 091 999 9999">
-                    </div>
-                </div>
-                <div class="form-group">
-                       <label for="email" class="form-label col-sm-2"> อีเมล : </label>
-                       <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@gmail.com">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect03">ศาสนา</label>
-                            </div>
-                            <select class="custom-select" id="inputGroupSelect03" required>
-                                <option selected>-เลือกข้อมูล-</option>
-                                <option value="1">พุทธ</option>
-                                <option value="2">คริสต์ </option>
-                                <option value="3">อิสลาม </option>
-                                <option value="4">พราหมณ์ฮินดู</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        บ้านเลขที่:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="123/45">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        หมู่ที่:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="เช่น หมู่ที่ 3">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        ถนน :
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="เช่น ถ.ราชดำเนิน">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        ตำบล/แขวง:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="เช่น ต.ในเมือง">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        อำเภอ/เขต:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="เช่น อ.เมือง">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect04">จังหวัด</label>
-                            </div>
-                            <select class="custom-select" id="inputGroupSelect04" required>
-                                <option selected>-เลือกข้อมูล-</option>
-                                <option value="1">นครศรีธรรมราช</option>
-                                <option value="2"> ตรัง </option>
-                                <option value="3">พัทลุง</option>
-                                <option value="4"> พังงา</option>
-                                <option value="5"> ภูเก็ต</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        รหัสไปรษณีย์:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="18203">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        โทรศัพท์บ้าน:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="0256498731">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        โทรศัพท์มือถือ:
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="text" name="" required class="form-control" placeholder="0623254987">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-2">
-                    </div>
-                    <div class="col-sm-3">
-                        <button type="submit" class="btn btn-primary">ตกลง</button>
-                    </div>
-                </div>
+    <div class="form-group mb-3">
+        <label for="fname" class="form-label col-sm-2"> ชื่อ : </label>
+        <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
+    </div>
+    <div class="form-group mb-3">
+        <label for="fname" class="form-label col-sm-2"> นามสกุล : </label>
+        <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
+    </div>
+    <div class="form-group mb-3">
+        <label for="data" class="form-label col-sm-2"> วันเดือนปีเกิด : </label>
+        <input type="date" name="" required class="form-date form-control">  
+    </div>  
+    <div class="form-group mb-3">                    
+        <label for="numderf" class="form-label col-sm-2"> เบอร์โทร : </label>                    
+        <input type="tel" name="" required class="form-control" placeholder="เช่น 091 999 9999">                    
+    </div>                              
+    <div class="form-group">                       
+    <label for="email" class="form-label col-sm-2"> อีเมล : </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend mb3">
+            <label class="input-group-text" for="inputGroupSelect01"> ศาสนา </label>
+        </div>
+        <select class="form-select form-control" id="inputGroupSelect03" required>
+            <option selected>-เลือกข้อมูล-</option>
+            <option value="1">พุทธ</option>
+            <option value="2">คริสต์ </option>
+            <option value="3">อิสลาม </option>
+            <option value="4">พราหมณ์ฮินดู</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> บ้านเลขที่ : </label>
+        <input type="text" name="" required class="form-control" placeholder="123/45">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> หมู่บ้าน : </label>
+        <input type="text" name="" required class="form-control" placeholder="เช่น หมู่ที่ 3">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> ถนน : </label>
+        <input type="text" name="" required class="form-control" placeholder="เช่น ถ.ราชดำเนิน">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> ตำบล/แขวง : </label>
+        <input type="text" name="" required class="form-control" placeholder="เช่น ต.ในเมือง">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> อำเภอ/เขต : </label>
+        <input type="text" name="" required class="form-control" placeholder="เช่น อ.เมือง">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend mb3">
+            <label class="input-group-text" for="inputGroupSelect01"> จังหวัด </label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect04" required>
+            <option selected>-เลือกข้อมูล-</option>
+            <option value="1">นครศรีธรรมราช</option>
+            <option value="2"> ตรัง </option>
+            <option value="3">พัทลุง</option>
+            <option value="4"> พังงา</option>
+            <option value="5"> ภูเก็ต</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> รหัสไปรษณีย์ : </label>
+        <input type="text" name="" required class="form-control" placeholder="18203">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> โทรศัพท์บ้าน : </label>
+        <input type="text" name="" required class="form-control" placeholder="0256498731">
+    </div>
+    <div class="form-group">
+        <label form="homenumber" class="form-label col-sm-2"> โทรศัพท์มือถือ: </label>
+        <input type="text" name="" required class="form-control" placeholder="0623254987">
+    </div>
+    <div class="form-group">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-3">
+            <button type="submit" class="btn btn-primary">ตกลง</button>
+        </div>
+    </div>
     </form>
 </body>
-
 </html>
