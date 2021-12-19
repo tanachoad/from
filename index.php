@@ -53,15 +53,12 @@
             </div>
                 <div class="form-group mb-3">
                     <label for="numderf" class="form-label col-sm-2"> เบอร์โทร : </label>
-                        <input type="tel" name="" required class="form-control" placeholder="เช่น 091 999 9999">
+                    <input type="tel" name="" required class="form-control" placeholder="เช่น 091 999 9999">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        อีเมล์ :
-                    </div>
-                    <div class="col-sm-3" required>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                       <label for="email" class="form-label col-sm-2"> อีเมล : </label>
+                       <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="name@gmail.com">
                     </div>
                 </div>
