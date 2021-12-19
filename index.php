@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <h1 align="center">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
+    
     <form align="body" action="#" method="post" name="add" class="form-horizontal container" id="add">
+        <h1 align="center">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
         </p>
     <div class="input-group mb-3">
         <div class="input-group-prepend mb3">
-            <label class="input-group-text" for="inputGroupSelect01">
-             คำนำหน้า</label>
+            <label class="input-group-text" for="inputGroupSelect01"> คำนำหน้า </label>
         </div>
         <select class="form-select form-control" id="inputGroupSelect01" required>
                 <option selected>-เลือกข้อมูล-</option>
@@ -40,16 +40,12 @@
         </select>
     </div>
             <div class="form-group mb-3">
-                <label for="fname" class="form-label col-sm-2">ชื่อ</label>
+                <label for="fname" class="form-label col-sm-2">ชื่อ :</label>
                 <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
-            <div class="form-group">
-                <div class="col-sm-2 control-label">
-                    นามสกุล :
-                </div>
-                <div class="col-sm-3" required>
-                    <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
-                </div>
+            <div class="form-group mb-3">
+                <label for="fname" class="form-label col-sm-2">นามสกุล :</label>
+                <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">
