@@ -16,23 +16,18 @@
     <h1 align="center">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
     <form align="body" action="#" method="post" name="add" class="form-horizontal container" id="add">
         </p>
-        <div class="form-group">
-            <div class="col-sm-2 control-label">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" for="inputGroupSelect01">
-                            คำนำหน้า</label>
-                    </div>
-                    <select class="custom-select" id="inputGroupSelect01" required>
-                        <option selected>-เลือกข้อมูล-</option>
-                        <option value="1">นาย</option>
-                        <option value="2">นาง</option>
-                        <option value="3">นางสาว</option>
-                    </select>
-
-                </div>
-            </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend mb3">
+            <label class="input-group-text" for="inputGroupSelect01">
+             คำนำหน้า</label>
         </div>
+        <select class="custom-select" id="inputGroupSelect01" required>
+                <option selected>-เลือกข้อมูล-</option>
+                <option value="1">นาย</option>
+                <option value="2">นาง</option>
+                <option value="3">นางสาว</option>
+        </select>
+    </div>
         <div class="form-group">
             <div class="col-sm-2 control-label">
                 <div class="input-group mb-3">
