@@ -21,7 +21,7 @@
             <label class="input-group-text" for="inputGroupSelect01">
              คำนำหน้า</label>
         </div>
-        <select class="custom-select" id="inputGroupSelect01" required>
+        <select class="form-select-control" id="inputGroupSelect01" required>
                 <option selected>-เลือกข้อมูล-</option>
                 <option value="1">นาย</option>
                 <option value="2">นาง</option>
