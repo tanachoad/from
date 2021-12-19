@@ -40,22 +40,19 @@
         </select>
     </div>
             <div class="form-group mb-3">
-                <label for="fname" class="form-label col-sm-2">ชื่อ :</label>
+                <label for="fname" class="form-label col-sm-2"> ชื่อ : </label>
                 <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group mb-3">
-                <label for="fname" class="form-label col-sm-2">นามสกุล :</label>
+                <label for="fname" class="form-label col-sm-2"> นามสกุล : </label>
                 <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group mb-3">
-                <label for="data" class="form-label col-sm-2">วันเดือนปีเกิด :</label>
+                <label for="data" class="form-label col-sm-2"> วันเดือนปีเกิด : </label>
                 <input type="date" name="" required class="form-date form-control">
             </div>
-                <div class="form-group">
-                    <div class="col-sm-2 control-label">
-                        เบอร์โทร :
-                    </div>
-                    <div class="col-sm-3" required>
+                <div class="form-group mb-3">
+                    <label for="numderf" class="form-label col-sm-2"> เบอร์โทร : </label>
                         <input type="tel" name="" required class="form-control" placeholder="เช่น 091 999 9999">
                     </div>
                 </div>
