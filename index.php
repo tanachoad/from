@@ -48,8 +48,8 @@
                 <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group mb-3">
-                <label for="data" class="form-label col-sm-2"วันเดือนปีเกิด :</label>
-                <input type="date" name="" required class="form-data form-control">
+                <label for="data" class="form-label col-sm-2">วันเดือนปีเกิด :</label>
+                <input type="date" name="" required class="form-date form-control">
             </div>
                 <div class="form-group">
                     <div class="col-sm-2 control-label">
