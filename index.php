@@ -117,10 +117,8 @@
         <input type="text" name="" required class="form-control" placeholder="0623254987">
     </div>
     <div class="form-group">
-        <div class="col-sm-2">
-        </div>
         <div class="col-sm-3">
-            <button type="submit" class="btn btn-primary">ตกลง</button>
+            <button type="submit" class="btn btn-primary form-control">ตกลง</button>
         </div>
     </div>
     </form>
