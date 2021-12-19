@@ -32,7 +32,7 @@
         <div class="input-group-prepend mb-3">
             <label class="input-group-text" for="inputGroupSelect02">เพศ</label>
         </div>
-        <select class="form-select" id="inputGroupSelect02" required>
+        <select class="form-select form-control" id="inputGroupSelect02" required>
             <option selected>-เลือกข้อมูล-</option>
             <option value="1">ชาย</option>
             <option value="2">หญิง</option>
@@ -40,7 +40,7 @@
         </select>
     </div>
             <div class="form-group">
-                <div class="col-sm-2 control-label">
+                <div class="form-label">
                     ชื่อ :
                 </div>
                 <div class="col-sm-3" required>
