@@ -28,20 +28,17 @@
                 <option value="3">นางสาว</option>
         </select>
     </div>
-        <div class="form-group">
-            <div class="col-sm-2 control-label">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" for="inputGroupSelect02">เพศ</label>
-                    </div>
-                    <select class="form-select" id="inputGroupSelect02" required>
-                        <option selected>-เลือกข้อมูล-</option>
-                        <option value="1">ชาย</option>
-                        <option value="2">หญิง</option>
-                        <option value="3">ไม่ระบุ</option>
-                    </select>
-                </div>
-            </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend mb-3">
+            <label class="input-group-text" for="inputGroupSelect02">เพศ</label>
+        </div>
+        <select class="form-select" id="inputGroupSelect02" required>
+            <option selected>-เลือกข้อมูล-</option>
+            <option value="1">ชาย</option>
+            <option value="2">หญิง</option>
+            <option value="3">ไม่ระบุ</option>
+        </select>
+    </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">
                     ชื่อ :
