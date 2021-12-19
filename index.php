@@ -40,12 +40,8 @@
         </select>
     </div>
             <div class="form-group mb-3">
-                <div class="form-label">
-                    ชื่อ :
-                </div>
-                <div class="col-sm-3" required>
-                    <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
-                </div>
+                <label for="fname" class="form-label">ชื่อจริง</label>
+                <input type="text" name="" required class="form-control" placeholder="ภาษาไทยหรืออังกฤษ">
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">
